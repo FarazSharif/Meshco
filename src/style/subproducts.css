@@ -1,0 +1,152 @@
+.product {
+	position: relative;
+	display: grid;
+	grid-template-rows: 150px;
+	margin-top: 150px;
+	width: 80%;
+	margin-left: 350px;
+	padding: 0px 100px;
+}
+
+.product-title {
+	display: flex;
+	text-align: center;
+	grid-row-start: 1;
+	grid-column-start: 2;
+	grid-row-end: 1;
+	grid-column-end: span 2;
+	font-family: 'Kaushan Script', cursive;
+	color: white;
+	margin-top: 20px;
+	letter-spacing: 7px;
+}
+
+.product-title h1 {
+	color: #F76701;
+	font-size: 34px;
+	cursor: pointer;
+	height: fit-content;
+	width: fit-content;
+}
+.product-title h1:hover{
+	text-shadow: 0px 0px 15px rgba(255,255,255,0.32);
+	border-radius: 20px;
+}
+.product-title h2 {
+	font-size: 44px;
+	margin-left: 55px;
+	font-weight: bold;
+}
+
+/* .product-title::before {
+	content: " ";
+	position: absolute;
+	border-top: 1px solid white;
+	width: 620px;
+	border-left: 1px solid white;
+	height: 80px;
+	margin: -10px;
+  }
+   */
+.product-detail1>img,
+.product-detail3>img {
+	width: 300px;
+	height: 300px;
+	border: 3px #7a7a7a solid;
+	border-bottom-left-radius: 20%;
+	border-top-right-radius: 20%;
+	margin-top: 20px
+}
+
+.product-detail2>img,
+.product-detail4>img {
+	width: 300px;
+	height: 300px;
+	border: 3px #7a7a7a solid;
+	border-bottom-right-radius: 20%;
+	border-top-left-radius: 20%;
+	margin-top: 20px
+}
+
+.product-detail1,
+.product-detail2,
+.product-detail3 {
+	display: flex;
+	flex-direction: row-reverse;
+	text-align: center;
+	grid-row-start: 2;
+	grid-column-start: 2;
+	grid-column-end: span 3;
+	flex-wrap: nowrap;
+	margin: 30px 100px;
+}
+
+.product-detail4 {
+	display: flex;
+	flex-direction: row-reverse;
+	text-align: center;
+	grid-row-start: 2;
+	grid-column-start: 2;
+	grid-column-end: span 3;
+	flex-wrap: nowrap;
+	margin: 30px 100px;
+	margin-bottom: 100px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid white;
+}
+
+.product-detail1 .product-text>h2,
+.product-detail2 .product-text>h2,
+.product-detail3 .product-text>h2,
+.product-detail4 .product-text>h2 {
+	color: #F76701;
+	font-family: 'ASAP', sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+	padding-bottom: 20px;
+}
+
+.product-detail1 .product-text>h4,
+.product-detail2 .product-text>h4,
+.product-detail3 .product-text>h4,
+.product-detail4 .product-text>h4 {
+	color: #C1C1C1;
+	font-family: 'ASAP', 'sans-serif';
+	line-height: 30px;
+	padding: 0 24px;
+	text-align: left;
+	font-size: 18px;
+	word-spacing: 4px;
+}
+
+.product-detail2 {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	grid-row-start: 3;
+	grid-column-start: 2;
+	grid-column-end: span 3;
+	flex-wrap: nowrap;
+}
+
+.product-detail1 img {}
+
+.product-detail3 {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	text-align: center;
+	grid-row-start: 4;
+	grid-column-start: 2;
+	grid-column-end: span 3;
+}
+
+.product-detail4 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	text-align: center;
+	grid-row-start: 5;
+	grid-column-start: 2;
+	grid-column-end: span 3;
+}

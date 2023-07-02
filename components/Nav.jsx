@@ -1,6 +1,6 @@
 import React from "react";
-
 export default function Nav(props) {
+
     return (
         <div id="navbar">
             <div className="nav-content">
@@ -28,26 +28,46 @@ export default function Nav(props) {
             </div>
             <div className={`content-top ${props.scrollDirection === "down" ? "move-down" : ""}`}>
                 <div className="content-top-left">
-                    <h1 className="link">Home page</h1>
+                    <h3 className={`link ${props.homePage ? "link-active" : ""}`} onClick={props.handleClickHome}>Home page</h3>
                     <div className="dropdown">
-                        <h1 className="link">About us</h1>
+                        <h3 className={`link ${ props.productweld || props.productsPage || props.productemm || props.productpm || props.productwm ? "link-active" : ""}`} onClick={props.handleClickProducts}>Products</h3>
                         <div className="dropdown-menu">
-                            <h2>Lorem ipsum dolor</h2>
-                            <h2>adipiscing elit</h2>
-                            <h2>Sed quis nunc</h2>
+                            <h2 className={`sublink ${props.productweld ? "link-active" : ""}`} onClick={props.handleClickProductweld} >Welded mesh</h2>
+                            <h2 className={`sublink ${props.productwm ? "link-active" : ""}`} onClick={props.handleClickProductswm}>Wooven mesh</h2>
+                            <h2 className={`sublink ${props.productemm ? "link-active" : ""}`} onClick={props.handleClickProductemm}>expanded metal mesh</h2>
+                            <h2 className={`sublink ${props.productpm ? "link-active" : ""}`} onClick={props.handleClickProductpm}>perforated mesh</h2>
                         </div>
                     </div>
                     <div className="dropdown">
-                        <h1 className="link">Custom orders</h1>
+                        <h3 className={`link ${props.aboutUsPage ? "link-active" : ""}`} onClick={props.handleClickAbout} >About us</h3>
                         <div className="dropdown-menu">
-                            <h2>Nunc ut iaculis</h2>
-                            <h2>elementum pretium </h2>
+                            <h2>History of Meshco</h2>
+                            <h2>Recieve our catalogs</h2>
                         </div>
                     </div>
-                    <h3 className="link">Contact us</h3>
+
+                    <h3 className="link" onClick={props.handleClickHome}>Contact us</h3>
                 </div>
                 <div className="content-top-right">
                     <img src="../src/assets/meshco.svg" className="toori-logo"></img>
+                </div>
+            </div>
+
+            <div className="sidebar">
+                <div className="meshco-logo">
+                    <img src="../src/assets/meshco.svg" ></img>
+                    <h6>Stainless steel and Mesh distributer.</h6>
+                </div>
+                <div className="know-text">
+                    <h1>Ask us today!</h1>
+                    <h4>Meshco is dedicated to provide you the best counciling and service,</h4>
+                    <h1>so</h1>
+                    <h2>EMAIL US AT :</h2>
+                    <h3>Meshco.steel@hotmail.com</h3>
+                    <h2>What defines us?</h2>
+                    <h5>We excel at production and distribution of all kinds of welded netting, mesh,
+                        serandi, galvanized, fence, steel, gabion, barbed wire, fence base,
+                        metal mesh and many more according to your request.<br /> Contact numbers: <br />✆ (+98-935-8178250) <br />✆ (+98-666-92825) <br />✆ (+98-666-70451)</h5>
                 </div>
             </div>
         </div>
