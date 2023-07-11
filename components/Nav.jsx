@@ -28,9 +28,10 @@ export default function Nav(props) {
             </div>
             <div className={`content-top ${props.scrollDirection === "down" ? "move-down" : ""}`}>
                 <div className="content-top-left">
-                    <h3 className={`link ${props.homePage ? "link-active" : ""}`} onClick={props.handleClickHome}>Home page</h3>
+                    <a className={`link ${props.homePage ? "link-active" : ""}`} onClick={props.handleClickHome}>Home page</a>
                     <div className="dropdown">
-                        <h3 className={`link ${ props.productweld || props.productsPage || props.productemm || props.productpm || props.productwm ? "link-active" : ""}`} onClick={props.handleClickProducts}>Products</h3>
+                        <a className={`link ${props.productweld || props.productsPage || props.productemm
+                            || props.productpm || props.productwm ? "link-active1" : ""}`} onClick={props.handleClickProducts}>Products</a>
                         <div className="dropdown-menu">
                             <h2 className={`sublink ${props.productweld ? "link-active" : ""}`} onClick={props.handleClickProductweld} >Welded mesh</h2>
                             <h2 className={`sublink ${props.productwm ? "link-active" : ""}`} onClick={props.handleClickProductswm}>Wooven mesh</h2>
@@ -39,22 +40,23 @@ export default function Nav(props) {
                         </div>
                     </div>
                     <div className="dropdown">
-                        <h3 className={`link ${props.aboutUsPage ? "link-active" : ""}`} onClick={props.handleClickAbout} >About us</h3>
+                        <a className={`link ${props.aboutUsPage ? "link-active1" : ""}`} onClick={props.handleClickAbout} >About us</a>
                         <div className="dropdown-menu">
-                            <h2>History of Meshco</h2>
-                            <h2>Recieve our catalogs</h2>
+                            <a href="#about-page-about" onClick={props.handleClickAbout}>About Meshco</a>
+                            <a href="#about-page-history" onClick={props.handleClickAbout}>History of Meshco</a>
+                            <a href="#about-page-catalog" onClick={props.handleClickAbout}>Recieve our catalogs</a>
                         </div>
                     </div>
 
-                    <h3 className="link" onClick={props.handleClickHome}>Contact us</h3>
+                    <a className="link" onClick={props.handleClickContact}>Contact us</a>
                 </div>
                 <div className="content-top-right">
-                    <img src="../src/assets/meshco.svg" className="toori-logo"></img>
+                    <img src="../src/assets/meshco.svg" className="toori-logo" onClick={props.handleClickHome}></img>
                 </div>
             </div>
 
             <div className="sidebar">
-                <div className="meshco-logo">
+                <div className="meshco-logo" onClick={props.handleClickHome}>
                     <img src="../src/assets/meshco.svg" ></img>
                     <h6>Stainless steel and Mesh distributer.</h6>
                 </div>

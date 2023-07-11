@@ -21,14 +21,9 @@ export default function Home(props) {
                 className={`home-bg-${backgroundpic}`}
                 style={{
                     backgroundImage: `url(../src/assets/background${backgroundpic}.jpg)`,
-                    transition: "background-image 0.4s ease-in",
-                    position: "fixed",
-                    backgroundSize: "cover",
-                    backgroundRepeat: "no-repeat",
-                    width: "100%",
-                    height: "100%",
                 }}
-            ></div>
+            >
+            </div>
             <div className="home-content">
                 <h1 className="home-title">Custom industrial Steel mesh experts</h1>
                 <ul>
@@ -50,7 +45,7 @@ export default function Home(props) {
                         <h1 onClick={props.handleClickProducts}>See products</h1>
                     </div>
                     <div className="home-btn-2">
-                        <h1>Create order</h1>
+                        <h1 onClick={props.handleClickContact}>Custom order</h1>
                     </div>
                 </div>
             </div>

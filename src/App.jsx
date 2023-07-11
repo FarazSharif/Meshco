@@ -13,6 +13,7 @@ import Productwm from '../components/products/Productwm'
 import Productemm from '../components/products/Productemm'
 import Productpm from '../components/products/Productpm'
 import Aboutus from '../components/Aboutus'
+import ContactPage from '../components/Contact'
 
 export default function App() {
     const [homePage, setHomePage] = React.useState(true);
@@ -22,6 +23,7 @@ export default function App() {
     const [productemm, SetProductemm] = React.useState(false);
     const [productpm, SetProductpm] = React.useState(false);
     const [aboutUsPage, setAboutUsPage] = React.useState(false);
+    const [contactPage, setContactPage] = React.useState(false);
     const [scrollDirection, setScrollDirection] = React.useState("up");
 
 
@@ -33,6 +35,7 @@ export default function App() {
         SetProductwm(false)
         SetProductemm(false)
         SetProductpm(false)
+        setContactPage(false)
     }
 
     function handleClickProducts() {
@@ -43,6 +46,7 @@ export default function App() {
         SetProductwm(false)
         SetProductemm(false)
         SetProductpm(false)
+        setContactPage(false)
     }
     function handleClickProductweld() {
         setHomePage(false)
@@ -52,6 +56,7 @@ export default function App() {
         SetProductwm(false)
         SetProductemm(false)
         SetProductpm(false)
+        setContactPage(false)
     }
     function handleClickProductswm() {
         setHomePage(false)
@@ -61,6 +66,7 @@ export default function App() {
         SetProductwm(true)
         SetProductemm(false)
         SetProductpm(false)
+        setContactPage(false)
     }
     function handleClickProductemm() {
         setHomePage(false)
@@ -70,6 +76,7 @@ export default function App() {
         SetProductwm(false)
         SetProductemm(true)
         SetProductpm(false)
+        setContactPage(false)
     }
     function handleClickProductpm() {
         setHomePage(false)
@@ -79,6 +86,7 @@ export default function App() {
         SetProductwm(false)
         SetProductemm(false)
         SetProductpm(true)
+        setContactPage(false)
     }
     function handleClickAbout() {
         setHomePage(false)
@@ -88,6 +96,17 @@ export default function App() {
         SetProductwm(false)
         SetProductemm(false)
         SetProductpm(false)
+        setContactPage(false)
+    }
+    function handleClickContact() {
+        setHomePage(false)
+        setProductsPage(false)
+        setAboutUsPage(false)
+        SetProductweld(false)
+        SetProductwm(false)
+        SetProductemm(false)
+        SetProductpm(false)
+        setContactPage(true)
     }
     let prevScrollPos = window.pageYOffset;
     window.onscroll = function () {
@@ -113,6 +132,7 @@ export default function App() {
                 productemm={productemm} handleClickProductemm={handleClickProductemm}
                 productpm={productpm} handleClickProductpm={handleClickProductpm}
                 aboutUsPage = {aboutUsPage} handleClickAbout= {handleClickAbout}
+                contactPage= {contactPage} handleClickContact= {handleClickContact}
             />
             {productsPage ? <Products 
                 productweld={productweld} handleClickProductweld={handleClickProductweld} 
@@ -120,16 +140,15 @@ export default function App() {
                 productemm={productemm} handleClickProductemm={handleClickProductemm}
                 productpm={productpm} handleClickProductpm={handleClickProductpm}
             /> : ""}
-            {homePage ? <Home handleClickProducts={handleClickProducts} /> : ""}
+            {homePage ? <Home handleClickProducts={handleClickProducts} handleClickContact={handleClickContact}/> : ""}
             {productweld ? <Productweld handleClickProducts={handleClickProducts}/> : ""}
             {productwm ? <Productwm handleClickProducts={handleClickProducts}/> : ""}
             {productemm ? <Productemm handleClickProducts={handleClickProducts}/> : ""}
             {productpm ? <Productpm handleClickProducts={handleClickProducts}/> : ""}
             {aboutUsPage ? <Aboutus/> : ""}
+            {contactPage ? <ContactPage /> : ""}
             <Footer />
             <Rights />
         </div>
     )
 }
-
-

@@ -1,13 +1,11 @@
-.product {
+.subproduct-content {
 	position: relative;
 	display: grid;
 	grid-template-rows: 150px;
 	margin-top: 150px;
 	width: 80%;
 	margin-left: 350px;
-	padding: 0px 100px;
 }
-
 .product-title {
 	display: flex;
 	text-align: center;
@@ -19,6 +17,8 @@
 	color: white;
 	margin-top: 20px;
 	letter-spacing: 7px;
+	margin-left: 100px;
+
 }
 
 .product-title h1 {
@@ -38,16 +38,6 @@
 	font-weight: bold;
 }
 
-/* .product-title::before {
-	content: " ";
-	position: absolute;
-	border-top: 1px solid white;
-	width: 620px;
-	border-left: 1px solid white;
-	height: 80px;
-	margin: -10px;
-  }
-   */
 .product-detail1>img,
 .product-detail3>img {
 	width: 300px;
