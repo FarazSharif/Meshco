@@ -6,23 +6,23 @@ export default function Nav(props) {
             <div className="nav-content">
                 <div className="left-side">
                     <div className="languages">
-                        <img src="../src/assets/eng.png" alt="English" className="english-icon" />
-                        <img src="../src/assets/iran.png" alt="Farsi" className="farsi-icon" />
+                        <img src="images/eng.png" alt="English" className="english-icon" />
+                        <img src="images/iran.png" alt="Farsi" className="farsi-icon" />
                     </div>
                     <div className="socials">
-                        <img src="../src/assets/whatsapp.png" alt="whatsapp" />
-                        <img src="../src/assets/instagram.png" alt="instagram" />
-                        <img src="../src/assets/linkedin.png" alt="linkedin" />
+                        <img src="images/whatsapp.png" alt="whatsapp" />
+                        <img src="images/instagram.png" alt="instagram" />
+                        <img src="images/linkedin.png" alt="linkedin" />
                     </div>
                 </div>
                 <div className="right-side">
                     <div className="email">
                         <h3>JohnDoe@email.com</h3>
-                        <img src="../src/assets/mail.png" alt="mail" />
+                        <img src="images/mail.png" alt="mail" />
                     </div>
                     <div className="phone">
                         <h3>905 123 123 123</h3>
-                        <img src="../src/assets/phone.png" alt="phone" />
+                        <img src="images/phone.png" alt="phone" />
                     </div>
                 </div>
             </div>
@@ -51,13 +51,13 @@ export default function Nav(props) {
                     <a className="link" onClick={props.handleClickContact}>Contact us</a>
                 </div>
                 <div className="content-top-right">
-                    <img src="../src/assets/meshco.svg" className="toori-logo" onClick={props.handleClickHome}></img>
+                    <img src="images/meshco.svg" className="toori-logo" onClick={props.handleClickHome}></img>
                 </div>
             </div>
 
             <div className="sidebar">
                 <div className="meshco-logo" onClick={props.handleClickHome}>
-                    <img src="../src/assets/meshco.svg" ></img>
+                    <img src="images/meshco.svg" ></img>
                     <h6>Stainless steel and Mesh distributer.</h6>
                 </div>
                 <div className="know-text">

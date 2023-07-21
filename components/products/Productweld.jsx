@@ -9,7 +9,7 @@ export default function ProductSSM(props) {
                     <h2> Welded wire mesh:</h2>
                 </div>
                 <div className="product-detail1">
-                    <img src="src/assets/welded-1.png"></img>
+                    <img src="images/welded-1.png"></img>
                     <div className="product-text">
                         <h2>Fencing and Enclosures
                         </h2>
@@ -20,7 +20,7 @@ export default function ProductSSM(props) {
                     </div>
                 </div>
                 <div className="product-detail2">
-                    <img src="src/assets/welded-2.jpg"></img>
+                    <img src="images/welded-2.jpg"></img>
                     <div className="product-text">
                         <h2>Security Panels</h2>
                         <h4>Stainless steel welded wire mesh is an excellent choice for security panels and partitions. Its welded construction ensures a strong and rigid structure,
@@ -30,7 +30,7 @@ export default function ProductSSM(props) {
                     </div>
                 </div>
                 <div className="product-detail3">
-                    <img src="src/assets/welded-3.jpg"></img>
+                    <img src="images/welded-3.jpg"></img>
                     <div className="product-text">
                         <h2>Machine Guards</h2>
                         <h4>In industrial settings, stainless steel welded wire mesh is employed as machine guards to enhance workplace safety. It effectively prevents contact
@@ -40,7 +40,7 @@ export default function ProductSSM(props) {
                     </div>
                 </div>
                 <div className="product-detail4">
-                    <img src="src/assets/welded-4.jpg"></img>
+                    <img src="images/welded-4.jpg"></img>
                     <div className="product-text">
                         <h2>Reinforcement in Concrete Structures
                         </h2>

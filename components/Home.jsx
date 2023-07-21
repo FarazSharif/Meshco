@@ -20,7 +20,7 @@ export default function Home(props) {
             <div
                 className={`home-bg-${backgroundpic}`}
                 style={{
-                    backgroundImage: `url(../src/assets/background${backgroundpic}.jpg)`,
+                    backgroundImage: `url(images/background${backgroundpic}.jpg)`,
                 }}
             >
             </div>
@@ -28,16 +28,16 @@ export default function Home(props) {
                 <h1 className="home-title">Custom industrial Steel mesh experts</h1>
                 <ul>
                     <li>
-                        <img src="./src/assets/white-ring.png" alt="not active" className={` ${backgroundpic === "1" ? "deactive" : "active"}`} onClick={() => handleClick("1")} />
-                        <img src="./src/assets/white-circle.svg" alt="not active" className={` ${backgroundpic === "1" ? "active" : "deactive"}`} onClick={() => handleClick("1")} bg-img="1" />
+                        <img src="images/white-ring.png" alt="not active" className={` ${backgroundpic === "1" ? "deactive" : "active"}`} onClick={() => handleClick("1")} />
+                        <img src="images/white-circle.svg" alt="not active" className={` ${backgroundpic === "1" ? "active" : "deactive"}`} onClick={() => handleClick("1")} bg-img="1" />
                     </li>
                     <li>
-                        <img src="./src/assets/white-ring.png" alt="not active" className={` ${backgroundpic === "2" ? "deactive" : "active"}`} onClick={() => handleClick("2")} />
-                        <img src="./src/assets/white-circle.svg" alt="not active" className={` ${backgroundpic === "2" ? "active" : "deactive"}`} onClick={() => handleClick("2")} bg-img="2" />
+                        <img src="images/white-ring.png" alt="not active" className={` ${backgroundpic === "2" ? "deactive" : "active"}`} onClick={() => handleClick("2")} />
+                        <img src="images/white-circle.svg" alt="not active" className={` ${backgroundpic === "2" ? "active" : "deactive"}`} onClick={() => handleClick("2")} bg-img="2" />
                     </li>
                     <li>
-                        <img src="./src/assets/white-ring.png" alt="not active" className={` ${backgroundpic === "3" ? "deactive" : "active"}`} onClick={() => handleClick("3")} />
-                        <img src="./src/assets/white-circle.svg" alt="not active" className={` ${backgroundpic === "3" ? "active" : "deactive"}`} onClick={() => handleClick("3")} bg-img="3" />
+                        <img src="images/white-ring.png" alt="not active" className={` ${backgroundpic === "3" ? "deactive" : "active"}`} onClick={() => handleClick("3")} />
+                        <img src="images/white-circle.svg" alt="not active" className={` ${backgroundpic === "3" ? "active" : "deactive"}`} onClick={() => handleClick("3")} bg-img="3" />
                     </li>
                 </ul>
                 <div className="products-btn">
