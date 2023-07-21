@@ -10,7 +10,7 @@ export default function Productwm(props) {
                     <h2> Woven mesh:</h2>
                 </div>
                 <div className="product-detail1">
-                    <img src="images/woven-1.jpg"></img>
+                    <img src="../src/images/woven-1.jpg"></img>
                     <div className="product-text">
                         <h2>Window Screens
                         </h2>
@@ -22,7 +22,7 @@ export default function Productwm(props) {
                     </div>
                 </div>
                 <div className="product-detail2">
-                    <img src="images/woven-2.jpg"></img>
+                    <img src="../src/images/woven-2.jpg"></img>
                     <div className="product-text">
                         <h2>Filtration Applications</h2>
                         <h4>Woven mesh plays a crucial role in a wide range of filtration applications across various industries. Its intricate weaving pattern creates a mesh structure
@@ -33,7 +33,7 @@ export default function Productwm(props) {
                     </div>
                 </div>
                 <div className="product-detail3">
-                    <img src="images/woven-3.jpg"></img>
+                    <img src="../src/images/woven-3.jpg"></img>
                     <div className="product-text">
                         <h2>Sieving</h2>
                         <h4>Woven mesh is extensively used in sieving applications to separate particles of different sizes. It is commonly utilized in industries such as mining, construction, agriculture, and pharmaceuticals. The mesh's strength, durability, and accurate aperture sizes enable efficient particle separation and classification.
@@ -41,7 +41,7 @@ export default function Productwm(props) {
                     </div>
                 </div>
                 <div className="product-detail4">
-                    <img src="images/woven-4.jpg"></img>
+                    <img src="../src/images/woven-4.jpg"></img>
                     <div className="product-text">
                         <h2>Architectural Elements
                         </h2>
