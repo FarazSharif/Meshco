@@ -17,10 +17,9 @@ export default function Home(props) {
     }
     return (
         <div className="homepage">
-            <div
-                className={`home-bg-${backgroundpic}`}
+            <div className={`home-bg-${backgroundpic}`}
                 style={{
-                    backgroundImage: `url(${backgroundpic}.jpg)`,
+                    backgroundImage: `url(background${backgroundpic}.jpg)`,
                 }}
             >
             </div>
