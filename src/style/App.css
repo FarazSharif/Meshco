@@ -478,7 +478,7 @@ html {
   width: 20px;
   height: 20px;
   background-size: 18px;
-  background-image: url("home.svg");
+  background-image: url("public/home.svg");
   background-repeat: no-repeat;
   bottom: 48px;
   left: 440px;
@@ -489,7 +489,7 @@ html {
   position: absolute;
   width: 14px;
   height: 14px;
-  background-image: url("mail.png");
+  background-image: url("public/mail.png");
   background-size: 14px;
   background-repeat: no-repeat;
   bottom: 0px;
