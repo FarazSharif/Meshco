@@ -6,7 +6,7 @@ export default function Nav(props) {
             <div className="nav-content">
                 <div className="left-side">
                     <div className="languages">
-                        <img src="../src/images/eng.png" alt="English" className="english-icon" />
+                        <img src="eng.png" alt="English" className="english-icon" />
                         <img src="../src/images/iran.png" alt="Farsi" className="farsi-icon" />
                     </div>
                     <div className="socials">
