@@ -10,7 +10,7 @@ export default function Productpm(props) {
                     <h2> Perforated mesh:</h2>
                 </div>
                 <div className="product-detail1">
-                    <img src="images/pm-1.jpg"></img>
+                    <img src="pm-1.jpg"></img>
                     <div className="product-text">
                         <h2>Acoustic Panels
                         </h2>
@@ -21,7 +21,7 @@ export default function Productpm(props) {
                     </div>
                 </div>
                 <div className="product-detail2">
-                    <img src="images/pm-2.jpg"></img>
+                    <img src="pm-2.jpg"></img>
                     <div className="product-text">
                         <h2>HVAC Ventilation</h2>
                         <h4>Perforated mesh is widely utilized in HVAC systems for efficient air distribution and ventilation. The evenly spaced perforations in the mesh allow air to flow through while preventing the entry of debris, insects, and larger particles. It is commonly used in air vents, duct covers, and diffusers, ensuring proper airflow and maintaining indoor air quality. Perforated mesh provides an essential component for effective HVAC systems in commercial and residential buildings.
@@ -31,7 +31,7 @@ export default function Productpm(props) {
                     </div>
                 </div>
                 <div className="product-detail3">
-                    <img src="images/pm-3.jpg"></img>
+                    <img src="pm-3.jpg"></img>
                     <div className="product-text">
                         <h2>Decorative Screens</h2>
                         <h4>Perforated mesh is increasingly used as decorative screens in architectural and interior design projects. The patterns and designs created by the perforations offer a visually appealing and modern aesthetic. Perforated mesh can be employed as decorative partitions, room dividers, facades, and wall panels, adding a touch of style and creativity to commercial spaces, offices, hotels, and public areas. Its versatility allows for unique designs and customizable patterns that enhance the overall aesthetics of a space.
@@ -41,7 +41,7 @@ export default function Productpm(props) {
                     </div>
                 </div>
                 <div className="product-detail4">
-                    <img src="images/pm-4.jpg"></img>
+                    <img src="pm-4.jpg"></img>
                     <div className="product-text">
                         <h2>Filtration and Straining
                         </h2>
