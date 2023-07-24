@@ -10,7 +10,7 @@ export default function Productemm(props) {
                     <h2> Expanded metal mesh:</h2>
                 </div>
                 <div className="product-detail1">
-                    <img src="../src/images/emm-1.jpg"></img>
+                    <img src="emm-1.jpg"></img>
                     <div className="product-text">
                         <h2>Safety Grating
                         </h2>
@@ -21,7 +21,7 @@ export default function Productemm(props) {
                     </div>
                 </div>
                 <div className="product-detail2">
-                    <img src="../src/images/emm-2.jpg"></img>
+                    <img src="emm-2.jpg"></img>
                     <div className="product-text">
                         <h2>Ventilation and Airflow</h2>
                         <h4>Expanded metal mesh is an ideal choice for applications that require ventilation and airflow control. The interconnected pattern of the expanded metal allows for the passage of air, making it suitable for HVAC (heating, ventilation, and air conditioning) systems, air vents, and equipment enclosures. The mesh openings can be customized to regulate the desired airflow while providing a barrier against larger objects or debris.
@@ -31,7 +31,7 @@ export default function Productemm(props) {
                     </div>
                 </div>
                 <div className="product-detail3">
-                    <img src="../src/images/emm-3.jpg"></img>
+                    <img src="emm-3.jpg"></img>
                     <div className="product-text">
                         <h2>Decorative Panels</h2>
                         <h4>Expanded metal mesh is increasingly used as decorative panels in architectural and interior design projects. Its unique patterns and textures offer a modern and visually appealing aesthetic. Expanded metal mesh can be used as cladding, wall panels, room dividers, or decorative facades in commercial spaces, museums, and public buildings. Its versatility allows for creative and striking design elements that combine functionality with artistic expression.
@@ -41,7 +41,7 @@ export default function Productemm(props) {
                     </div>
                 </div>
                 <div className="product-detail4">
-                    <img src="../src/images/emm-4.jpg"></img>
+                    <img src="emm-4.jpg"></img>
                     <div className="product-text">
                         <h2>Security Barriers
                         </h2>

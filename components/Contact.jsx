@@ -5,7 +5,7 @@ export default function Contact(props) {
         <div className="content-page">
             <div className="page-bg"
                 style={{
-                    backgroundImage: `url(../src/images/products-bg.jpg)`,
+                    backgroundImage: `url(products-bg.jpg)`,
                     transition: "background-image 0.2s ease-in",
                     position: "fixed",
                     backgroundSize: "cover",

@@ -5,7 +5,7 @@ export default function ProductPage(props) {
         <div className="product-page">
             <div
                 style={{
-                    backgroundImage: `url(../src/images/products-bg.jpg)`,
+                    backgroundImage: `url(products-bg.jpg)`,
                     position: "fixed",
                     backgroundSize: "cover",
                     backgroundRepeat: 'no-repeat',
@@ -23,12 +23,12 @@ export default function ProductPage(props) {
 
                 <ul className="product-page-details">
                     <li onClick={props.handleClickProductweld} className="prod-1">
-                        <img src="../src/images/product-page-img3.jpg" alt="stainless steel Welded mesh" />
+                        <img src="product-page-img3.jpg" alt="stainless steel Welded mesh" />
                         <h2 > Welded mesh</h2>
                         <h3>Stainless steel welded mesh is a strong and corrosion-resistant wire mesh created by welding stainless steel wires together. It is used in various applications like fencing, security enclosures, and construction reinforcement due to its durability and versatility.</h3>
                     </li>
                     <li onClick={props.handleClickProductswm} className="prod-2">
-                        <img src="../src/images/product-page-img2.jpg" alt="Wooven mesh" />
+                        <img src="product-page-img2.jpg" alt="Wooven mesh" />
                         <h2>Wooven mesh</h2>
                         <h3>Woven mesh is a type of wire mesh that is created by interweaving individual wires in a
                             crisscross pattern.
@@ -38,7 +38,7 @@ export default function ProductPage(props) {
                         </h3>
                     </li>
                     <li onClick={props.handleClickProductemm} className="prod-3">
-                        <img src="../src/images/Stainless steel expanded metal mesh.jpg" alt="expanded metal mesh" />
+                        <img src="Stainless steel expanded metal mesh.jpg" alt="expanded metal mesh" />
                         <h2>expanded metal mesh</h2>
                         <h3>Expanded metal mesh is a type of wire mesh that is created by cutting and stretching a flat sheet of metal, resulting in a
                             pattern of interconnected diamond-shaped openings. It is lightweight, yet strong and rigid. It's used
@@ -48,7 +48,7 @@ export default function ProductPage(props) {
 
                     </li>
                     <li onClick={props.handleClickProductpm} className="prod-4">
-                        <img src="../src/images/Stainless steel perforated mesh.jpg" alt="fiter mesh" />
+                        <img src="Stainless steel perforated mesh.jpg" alt="fiter mesh" />
                         <h2>perforated mesh</h2>
                         <h3>Perforated mesh, also known as perforated metal, is a sheet of metal that contains regularly spaced holes or perforations.
                             Perforated mesh provides good ventilation, visibility, and sound absorption.
